@@ -132,4 +132,18 @@ footer {
     border: 7px #2e3b40;
 }
 
+  /* Media Styles for smaller screen */
+@media screen and (max-width: 800px) {
   
+    body {
+            padding-top: 50px;
+            margin-top: 50px;
+        }
+    main {
+        padding-top: 60px;
+        margin-top: 25px;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+}
