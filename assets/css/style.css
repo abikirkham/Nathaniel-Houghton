@@ -10,18 +10,25 @@ li {
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 30px;
     background-color: #f0eee9;
     color: #333;
 }
-
-header, main {
+main {
     background-color: #f0eee9;
     color: #333;
     padding: 15px;
     text-align: left;
-    border: 7px #333;
+    margin-bottom: 10px; }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0eee9;
+    color: #333;
+    padding: 30px;
+    text-align: left;
     margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 a h1 {
@@ -30,10 +37,12 @@ a h1 {
     color: #333;
 }
 a h1:hover {
-    color: ##d4812f;
+    color: #eb8c34;
+    transition: color 0.5s ease;
 }
 nav ul {
     list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
     display: inline;
@@ -51,7 +60,8 @@ nav a {
 }
 
 nav a:hover {
-    color: ##d4812f; 
+    color: #eb8c34; 
+    transition: color 0.5s ease;
 }
 
 .container {
@@ -74,3 +84,4 @@ footer {
     border: 7px #333;
 }
 
+  
