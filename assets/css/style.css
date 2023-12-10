@@ -10,21 +10,20 @@ li {
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #f0eee9;
-    color: #333;
+    background-color: #fcfaf2;
+    color: #2e3b40;
 }
 main {
-    background-color: #f0eee9;
-    color: #333;
+    background-color: #fcfaf2;
+    color: #2e3b40;
     padding: 15px;
     text-align: left;
     margin-bottom: 10px; }
 
 header {
     display: flex;
-    justify-content: space-between;
-    background-color: #f0eee9;
-    color: #333;
+    background-color: #fcfaf2;
+    color: #2e3b40;
     padding: 30px;
     text-align: left;
     margin-bottom: 10px;
@@ -34,18 +33,18 @@ header {
 a h1 {
     display: inline;
     margin-right: 20px;
-    color: #333;
+    color: #2e3b40;
+    font-weight: 500;
 }
 a h1:hover {
-    color: #eb8c34;
+    color: #fa980f;
     transition: color 0.5s ease;
 }
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
-    display: inline;
+    margin: 10px;
+    font-size: 1.05em;
 }
 
 nav ul li {
@@ -55,12 +54,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #2e3b40;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #eb8c34; 
+    color: #fa980f; 
     transition: color 0.5s ease;
 }
 
@@ -71,17 +70,20 @@ nav a:hover {
 }
 
 section {
-    background-color: #f0eee9;
+    background-color: #fcfaf2;
     padding: 40px 0;
     border-bottom: 1px solid #e0e0e0;
 }
 
+h2 {
+    font-weight: 500;
+}
 footer {
     text-align: center;
-    background-color: #f0eee9;
-    color: #333;
+    background-color: #fcfaf2;
+    color: #2e3b40;
     text-align: left;
-    border: 7px #333;
+    border: 7px #2e3b40;
 }
 
   
