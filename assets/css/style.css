@@ -1,20 +1,41 @@
+/* Global Styles */
+h1,
+h2,
+p,
+a,
+li {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 30px;
+    background-color: #f0eee9;
+    color: #333;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
+header, main {
+    background-color: #f0eee9;
+    color: #333;
+    padding: 15px 0;
+    text-align: left;
+    border: 7px #333;
 }
 
+a h1 {
+    display: inline;
+    margin-right: 20px;
+    color: #333;
+}
+a h1:hover {
+    color: ##d4812f;
+}
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 nav ul li {
@@ -24,7 +45,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: ##d4812f; 
 }
 
 .container {
@@ -34,12 +60,16 @@ nav a {
 }
 
 section {
+    background-color: #f0eee9;
     padding: 40px 0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 10px 0;
+    background-color: #f0eee9;
+    color: #333;
+    text-align: left;
+    border: 7px #333;
 }
+
