@@ -77,6 +77,11 @@ section {
     padding: 40px 0;
     border-bottom: 1px solid #e0e0e0;
 }
+.my-image {
+    width: 200px;
+    height: auto; 
+  }
+  
 
 h2 {
     font-weight: 500;
