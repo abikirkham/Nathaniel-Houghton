@@ -6,8 +6,15 @@ a,
 li {
     text-decoration: none;
     font-weight: 500;
+    color: #2e3b40;
 }
 
+.container a {
+    color: #2e3b40;
+}
+.container a:hover {
+    color: #fa980f;
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -54,7 +61,9 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
-
+.h2title {
+    float: right;
+}
 nav a {
     text-decoration: none;
     color: #2e3b40;
@@ -62,7 +71,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #fa980f; 
+   font-size: larger;
+    border-radius: 5px;
+    border: #fa980f solid 2px ;
     transition: color 0.5s ease;
 }
 
@@ -77,12 +88,30 @@ section {
     padding: 40px 0;
     border-bottom: 1px solid #e0e0e0;
 }
-.my-image {
-    width: 200px;
-    height: auto; 
-  }
   
+  #landing .box {
+    display: flex;
+}
 
+.my-image {
+    width: 400px;
+    height: auto; 
+    padding-right: 20px;
+    padding-left: 20px;
+    opacity: 0.8;
+    max-width: 100%;
+    margin-right: 20px; /* Adjust the margin as needed */
+    border-radius: 50px;
+}
+
+.text-content {
+    padding-top: 25px;
+    flex-grow: 1; /* Take up remaining space in the flex container */
+}
+#landing h2 {
+    margin-top: 0; /* Remove default margin for h2 */
+    margin-bottom: 10px; /* Add margin between h2 and p */
+}
 h2 {
     font-weight: 500;
 }
@@ -152,4 +181,13 @@ footer {
     .container1 {
         flex-direction: column;
     }
-}
+            #landing .box {
+                flex-direction: column; /* Stack elements vertically on smaller screens */
+            }
+        
+            .my-image {
+                margin-bottom: 10px; /* Add margin between image and text on smaller screens */
+            }
+        }
+        
+    

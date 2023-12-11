@@ -9,53 +9,74 @@
 <body>
 
     <header>
-        <a href="index.html"><h1>Nathaniel Houghton</h1></a>
+        <a href="index.html"><h1>The Bid Constulants</h1></a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="cv.html">CV</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Request a Quote</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
     </header>
 <main>
-    <!-- Signup form with action set to "thankyou.html" -->
-    <form action="thankyou.html">
-    
-            <!-- Legend for the signup form -->
-            <legend>
-                <h1>Sign Up for Updates</h1>
-            </legend>
+    <form id="quoteForm">
+        <!-- Contact Information -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-            <!-- Description of the signup form -->
-            <p>
-                Stay informed ......
-            </p>
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required>
 
-            <!-- Input field for first name -->
-            <label for="first-name">First name:</label>
-            <input type="text" id="first-name" name="first-name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-            <!-- Input field for last name -->
-            <label for="last-name">Last name:</label>
-            <input type="text" id="last-name" name="last-name" required />
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
 
-            <!-- Input field for email -->
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+        <!-- Project Details -->
+        <h3>Project Details</h3>
+        <label for="projectName">Project Name:</label>
+        <input type="text" id="projectName" name="projectName" required>
 
-            <!-- Submit button -->
-            <button type="submit" class="button">Sign Up</button>
-    
+        <label for="bidType">Type of Bid:</label>
+        <input type="text" id="bidType" name="bidType" required>
+
+        <label for="projectScope">Project Scope:</label>
+        <textarea id="projectScope" name="projectScope" required></textarea>
+
+        <label for="bidDeadline">Bid Submission Deadline:</label>
+        <input type="text" id="bidDeadline" name="bidDeadline" required>
+
+        <!-- Services Required -->
+        <h3>Services Required</h3>
+        <label><input type="checkbox" name="services" value="preBidPlanning"> Pre-Bid Planning</label>
+        <label><input type="checkbox" name="services" value="bidProposalDevelopment"> Bid Proposal Development</label>
+        <label><input type="checkbox" name="services" value="bidManagement"> Bid Management and Coordination</label>
+        <label><input type="checkbox" name="services" value="qualityAssurance"> Quality Assurance and Review</label>
+        <label><input type="checkbox" name="services" value="postSubmissionSupport"> Post-Submission Support</label>
+        <label><input type="checkbox" name="services" value="trainingAndWorkshops"> Training and Workshops</label>
+
+        <!-- Additional Information -->
+        <label for="additionalInfo">Additional Information:</label>
+        <textarea id="additionalInfo" name="additionalInfo"></textarea>
+
+        <!-- Preferred Contact Method -->
+        <h3>Preferred Contact Method</h3>
+        <label><input type="radio" name="contactMethod" value="email" checked> Email</label>
+        <label><input type="radio" name="contactMethod" value="phone"> Phone</label>
+
+        <!-- Submit Button -->
+        <button type="button" onclick="submitForm()">Submit</button>
     </form>
+
 </main>
     <footer>
         <div class="container">
             <p>&copy; 2023 Your Law Business. All rights reserved.</p>
         </div>
     </footer>
-
+<script src="assets/javascript/form.js"></script>
 </body>
 </html>
