@@ -82,7 +82,7 @@ main {
 .landing-container {
     position: relative;
     height: 100vh;
-    background: url("assets/images/document.png") center/cover no-repeat;
+    background: url("assets/images/background.jpg") center/cover no-repeat;
     opacity: 0.8;
     color: #fff;
     display: flex;
