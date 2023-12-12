@@ -220,7 +220,19 @@ button:hover {
     color: #fa980f;
     background-color: #fcfaf2;
 }
+.button {
+    background-color: #2e3b40;
+    color: #fcfaf2;
+    display: block;
+    padding: 10px 20px;
+    border: 3px #2e3b40;
+    border-radius: 5px;
+}
 
+.button:hover {
+    color: #fa980f;
+    background-color: #fcfaf2;
+}
 /* Footer Styles */
 footer {
     background-color: #fcfaf2;
