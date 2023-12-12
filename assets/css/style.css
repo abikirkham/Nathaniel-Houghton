@@ -19,9 +19,6 @@ h1, h2, p, a, li {
 .container a:hover {
     color: #fa980f;
 }
-.rotate {
-  transform: rotate(90deg);
-}
 
 /* Header Styles */
 header {
