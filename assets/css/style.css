@@ -84,7 +84,6 @@ main {
     height: 100vh;
     background: url("assets/images/background.jpg") center/cover no-repeat;
     opacity: 0.8;
-    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,6 +114,7 @@ main {
 
 .cta-button:hover {
     background-color: #fa980f;
+    color: #2e3b40;
 }
 
 
@@ -223,11 +223,9 @@ button:hover {
 
 /* Footer Styles */
 footer {
-    text-align: center;
     background-color: #fcfaf2;
     color: #2e3b40;
     text-align: left;
-    border: 7px #2e3b40;
 }
 
 /* Media Queries for Smaller Screens */
