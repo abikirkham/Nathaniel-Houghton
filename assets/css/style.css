@@ -150,6 +150,11 @@ main {
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
+    flex: 0 0 auto;
+            width: 300px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
 }
 
 .product {
@@ -163,6 +168,36 @@ main {
     margin-bottom: 10px;
 }
 
+
+
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            width: 100%;
+            white-space: nowrap;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .scroll-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .scroll-left {
+            left: 10px;
+        }
+
+        .scroll-right {
+            right: 10px;
 /* Section Styles */
 .container {
     width: 80%;
