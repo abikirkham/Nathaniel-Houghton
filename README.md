@@ -5,7 +5,7 @@
 Welcome to the repository for the website of "The Bid Consultants" - a platform dedicated to unlocking the full potential of your bid writing team. This README provides an overview of the project structure and key components.
 
 ## File Structure
-
+ IMAGES 3000X1996
 
 - **assets/css/style.css**: Contains the styles for the entire website.
 - **product1.jpg, product2.jpg, product3.jpg**: Images used for showcasing different products.
