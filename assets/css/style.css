@@ -82,13 +82,20 @@ main {
 .landing-container {
     position: relative;
     height: 100vh;
-    background-image: url("assets/images/background.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+ #myImage {
+      width: 100%;
+      height: auto;
+     object-fit: cover;
+      border-radius: 8px; /* Add rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+      transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    }
 
 .description-container {
     max-width: 600px;
