@@ -82,7 +82,8 @@ main {
 .landing-container {
     position: relative;
     height: 100vh;
-    background: url('background-image.jpg') center/cover no-repeat;
+    background: url("assets/images/document.png") center/cover no-repeat;
+    opacity: 0.8;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -94,6 +95,8 @@ main {
 .description-container {
     max-width: 600px;
     margin-bottom: 20px;
+    background-color: #fcfaf2;
+    border-radius: 15px;
 }
 
 
