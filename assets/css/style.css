@@ -68,6 +68,14 @@ nav a:hover {
     border: #fa980f solid 2px;
     transition: color 0.5s ease;
 }
+.floating-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Main Content Styles */
 
