@@ -274,6 +274,12 @@ footer {
 }
 
 /* Media Queries for Smaller Screens */
+
+@media screen and (max-width: 1100px) {
+.floating-container {
+    display: none;
+}
+}
 @media screen and (max-width: 800px) {
     body {
         padding-top: 50px;
@@ -284,34 +290,58 @@ footer {
         padding-top: 60px;
         margin-top: 25px;
     }
+
     header {
         z-index: 1;
+        padding: 15px;
+        text-align: center;
     }
 
-    #landing .box {
-        flex-direction: column;
+    header a h1 {
+        margin-right: 0;
     }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #myImage {
+        height: auto;
+        max-width: 100%;
+    }
+
     .description-container {
-        flex-direction: column;
+        width: 100%;
+        top: 50%;
     }
 
-    .my-image {
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .signup {
+        width: 100%;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
         margin-bottom: 10px;
     }
-    .floating-container {
-        display: none;
-    }
-   
-        form {
-            padding: 15px; /* Adjust padding for smaller screens */
-        }
-    
-        form input[type="text"],
-        form input[type="email"],
-        form textarea {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-    }
-    
-
+}
