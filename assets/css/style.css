@@ -203,38 +203,53 @@ h2 {
     font-weight: 500;
 }
 
+/* Form Styles */
+
 form {
-    padding: 100px 100px;
+    width: 100%; /* Ensure the form takes full width */
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #fcfaf2;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 form input[type="text"],
 form input[type="email"],
+form input[type="tel"],
 form textarea {
-    width: 50%;
+    width: 100%; /* Make the input fields take full width */
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 0.3px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-button {
+form button {
     background-color: #2e3b40;
     color: #fcfaf2;
     display: block;
     padding: 10px 20px;
-    border: 3px #2e3b40;
+    border: 3px solid #2e3b40;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-button:hover {
-    color: #fa980f;
-    background-color: #fcfaf2;
+form button:hover {
+    background-color: #fa980f;
+    color: #2e3b40;
 }
+
 .button {
    display: inline-block;
     padding: 10px 20px;
@@ -286,4 +301,17 @@ footer {
     .floating-container {
         display: none;
     }
-}
+   
+        form {
+            padding: 15px; /* Adjust padding for smaller screens */
+        }
+    
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    
+
