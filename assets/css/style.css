@@ -99,6 +99,9 @@ main {
   
 }
 
+.styled-image {
+    opacity: 0.5;
+}
 .description-container {
     position: absolute;
     z-index: 2;
@@ -108,7 +111,7 @@ main {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    top: 60%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%; /* Adjust the width as needed */
