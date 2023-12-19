@@ -65,12 +65,11 @@ nav a {
 nav a:hover {
     font-size: larger;
     border-radius: 5px;
-    border: #fa980f solid 2px;
-    transition: color 0.5s ease;
+    transition: color 0.7s ease;
 }
 
 .floating-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   padding: 10px;
@@ -100,7 +99,7 @@ main {
 }
 
 .styled-image {
-    opacity: 0.5;
+    opacity: 1;
 }
 .description-container {
     position: absolute;
