@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     color: #2e3b40;
 }
 
@@ -23,7 +23,7 @@ h1, h2, p, a, li {
 /* Header Styles */
 header {
     display: flex;
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     color: #2e3b40;
     padding: 30px;
     text-align: left;
@@ -79,7 +79,7 @@ nav a:hover {
 /* Main Content Styles */
 
 main {
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     color: #2e3b40;
     padding: 15px;
     text-align: left;
@@ -107,7 +107,7 @@ main {
     z-index: 2;
     max-width: 600px;
     margin: auto;
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
@@ -163,7 +163,7 @@ main {
 }
 
 section {
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     padding: 40px 0;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -197,6 +197,38 @@ h2 {
     font-weight: 500;
 }
 
+
+
+/* Profile Section Styles */
+.profile-section {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile, .specialist, .junior {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px 20px 0;
+    float: left;
+    flex: 1;
+    max-width: calc(33.333% - 10px); 
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.profile img, .specialist img, .junior img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to images */
+}
+
+
+
+
 /* Signup Section Styles */
 .signup {
     max-width: 800px;
@@ -214,7 +246,7 @@ form {
     max-width: 600px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the form horizontally */
     padding: 20px;
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -240,7 +272,7 @@ form textarea {
 
 form button {
     background-color: #2e3b40;
-    color: #fcfaf2;
+    color: #fffefa;
     display: block;
     padding: 10px 20px;
     border: 3px solid #2e3b40;
@@ -272,7 +304,7 @@ form button:hover {
 }
 /* Footer Styles */
 footer {
-    background-color: #fcfaf2;
+    background-color: #fffefa;
     color: #2e3b40;
     text-align: left;
 }
