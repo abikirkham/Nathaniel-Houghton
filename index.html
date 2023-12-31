@@ -32,7 +32,7 @@
 
  
     
-        <img id="myImage" src="assets/images/Header.jpg" alt="Background Image">
+        <img id="myImage" src="assets/images/1.jpg" alt="Background Image">
         <div class="description-container">
             <h1>The Bid Consultants</h1>
             <p>Unlock the full potential of your bid writing team with our specialized training, high-quality proposal writing, and comprehensive review services.</p>
@@ -40,39 +40,38 @@
         <a href="contact.html" class="cta-button">Contact Us</a>
         <br><br>
         </div>
-        
+        <br><br><br><br>
     
-    <!-- Products Container -->
-    <div class="products-container">
-        <div class="product">
-            <a href="http://www.freeimages.co.uk/galleries/workplace/office/slides/abacus_with_copyspace.htm" target="_blank"><img src="https://www.freeimageslive.com/galleries/workplace/office/preview/abacus_with_copyspace.jpg" title="Wooden abacus lying on a desk or table by www.freeimages.co.uk" width="100" class="styled-image"></a>
-            <h2>Bid Strategy Development</h2>
-            <p>We assist in creating a winning bid strategy, including a technical approach and risk assessment.</p>
-            <a href="services.html" class="button">Go to Page</a>
-
-        </div>
-        <div class="product">
-            <a href="http://www.freeimages.co.uk/galleries/workplace/office2/slides/pencil_and_paper.htm" target="_blank"><img src="https://www.freeimageslive.com/galleries/workplace/office2/preview/pencil_and_paper.jpg" title="Open notebook with pencil by www.freeimages.co.uk" width="100" class="styled-image"></a>   
-            <h2>Team Formation</h2>
-            <p>We help you assemble the right team of experts, partners, and subcontractors for each bid.</p>
-            <a href="services.html" class="button">Go to Page</a>
-
-        </div>
-        <div class="product">
-            <a href="http://www.freeimages.co.uk/galleries/workplace/construction/slides/design_engineer_computer.htm" target="_blank"><img src="https://www.freeimageslive.com/galleries/workplace/construction/preview/design_engineer_computer.jpg" title="Engineers workplace with computer by www.freeimages.co.uk" width="100" class="styled-image"></a>
-           <h2>Bid Schedule</h2>
-            <p>We develop a detailed timeline to ensure all components of the bid are completed on time.</p>
-            <a href="services.html" class="button">Go to Page</a>
-
-        </div>
+    <h1><a href="services.html">Services</a></h1>
+    <div class="products-container">   
+      <div class="image-wrapper">
+        <h2 id="image-title-prev"></h2>
+        <img id="rotator-prev" src="" alt="Gallery Image">
+        <p id="image-text-prev"></p>
     </div>
     
+    <div class="image-wrapper">
+      <h2 id="image-title"></h2>
+        <img id="rotator" src="" alt="Gallery Image"> 
+        <p id="image-text"></p>
+    </div>
+    
+    <div class="image-wrapper">
+      <h2 id="image-title-next"></h2>
+        <img id="rotator-next" src="" alt="Gallery Image">
+        <p id="image-text-next"></p>
+    </div>
+
+    </div>
+    <button id="prev-button">Previous</button>
+    <button id="next-button">Next</button>
     </main>
     <footer>
         <div class="container">
             <p>&copy; 2023 Your Law Business. All rights reserved.</p>
         </div>
     </footer>
+    <script src="assets/javascript/arrows.js"></script>
 
 </body>
 </html>

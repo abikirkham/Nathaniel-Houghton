@@ -99,24 +99,84 @@ main {
 }
 
 .styled-image {
-    opacity: 1;
+    opacity: 0.8;
+    max-height: 800px;
 }
 .description-container {
     position: absolute;
     z-index: 2;
     max-width: 600px;
-    margin: auto;
-    background-color: #fffdfe;
     border-radius: 15px;
+    top: 50%;
+    left: 50%;
     padding: 20px;
     text-align: center;
-    top: 35%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%; /* Adjust the width as needed */
+    margin-bottom: 100px;
 }
 
 
+.products-container {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.image-wrapper {
+    display: inline-block;
+    color: #403d39;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    position: relative;
+    width: 450px;
+    max-width: 100%;
+}
+
+
+#rotator-prev,
+#rotator,
+#rotator-next {
+    width: 250px; /* Use 100% width for responsiveness */
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-wrapper {
+    position: absolute;
+   align-items: center;
+    width: 350px;
+    height: fit-content;
+    color: #403d39;
+    padding: 10px;
+    
+}
+h1 a {
+    margin: 650px;
+}
+#image-text-prev,
+#image-text,
+#image-text-next,
+#image-title-prev,
+#image-title,
+#image-title-next {
+    color: #403d39;
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+}
+
+#prev-button,
+#next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #e0e0e0;
+    background-color: #2e3b40;
+    border: none;
+    border-radius: 5px;
+}
 /* CTA button styles */
 .cta-button {
     display: inline-block;
