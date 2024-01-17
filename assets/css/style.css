@@ -32,18 +32,19 @@ header {
     z-index: 1;
 }
 
-.top {
+/* Header link styling */
+a h1 {
     display: inline;
     margin-right: 20px;
     color: #2e3b40;
     font-weight: 500;
 }
 
-.top:hover {
+/* Change header link color on hover with transition effect */
+a h1:hover {
     color: #fa980f;
     transition: color 0.5s ease;
 }
-
 nav ul {
     list-style: none;
     display: flex;
