@@ -229,6 +229,7 @@ section {
 .contact {
     background-color: #F6FBFB;
     padding: 10px;
+    text-align: center;
 }
 #landing .box {
     display: flex;
