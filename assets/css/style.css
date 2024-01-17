@@ -226,7 +226,10 @@ section {
     padding: 40px 0;
     border-bottom: 1px solid #e0e0e0;
 }
-
+.contact {
+    background-color: #E9F6F6;
+    padding: 10px;
+}
 #landing .box {
     display: flex;
 }
