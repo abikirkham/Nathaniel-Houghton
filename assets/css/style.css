@@ -32,14 +32,14 @@ header {
     z-index: 1;
 }
 
-.top h1 {
+.top {
     display: inline;
     margin-right: 20px;
     color: #2e3b40;
     font-weight: 500;
 }
 
-.top h1:hover {
+.top:hover {
     color: #fa980f;
     transition: color 0.5s ease;
 }
