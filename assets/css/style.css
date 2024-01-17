@@ -369,7 +369,7 @@ form button:hover {
 footer {
     background-color: #fffdfe;
     color: #2e3b40;
-    text-align: left;
+    
 }
 
 
@@ -383,7 +383,7 @@ footer {
     margin-right: 150px;
     margin-bottom: 10px;
     vertical-align: top;
-    text-align: center; /* Align text to the left */
+    text-align: center; 
 }
 
 /* Style for headings in each section */
