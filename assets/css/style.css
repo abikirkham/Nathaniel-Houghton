@@ -419,8 +419,7 @@ footer {
 .contact2,
 .address-media,
 .newsletter {
-    display: inline-block;
-    margin-top: -30px;
+  
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 20px;
