@@ -229,6 +229,8 @@ section {
 .contact {
     background-color: #F6FBFB;
     padding: 10px;
+}
+.contact h2 {
     text-align: center;
 }
 #landing .box {
