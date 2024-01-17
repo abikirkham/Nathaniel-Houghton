@@ -180,6 +180,13 @@ h1 a {
     border: none;
     border-radius: 5px;
 }
+
+#prev-button:hover,
+#next-button:hover {
+     background-color: #fa980f;
+    color: #2e3b40;
+}
+
 /* CTA button styles */
 .cta-button {
     display: inline-block;
