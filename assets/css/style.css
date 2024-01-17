@@ -236,6 +236,7 @@ section {
             justify-content: space-around;
          height: 400px;
          padding-left: 50px;
+         padding-right: 50px;
         }
 
         .testimonial {
