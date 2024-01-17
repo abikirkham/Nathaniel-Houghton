@@ -235,6 +235,7 @@ section {
             display: flex;
             justify-content: space-around;
          height: 400px;
+         padding-left: 50px;
         }
 
         .testimonial {
