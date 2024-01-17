@@ -230,7 +230,15 @@ section {
     padding: 40px 0;
     border-bottom: 1px solid #e0e0e0;
 }
+      
+     .testimonial-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
         .testimonial {
+            border: 2px solid #ddd; /* Add border */
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -254,6 +262,7 @@ section {
         .affiliation {
             color: #888;
         }
+
 #landing .box {
     display: flex;
 }
