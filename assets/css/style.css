@@ -10,6 +10,7 @@ h1, h2, p, a, li {
     text-decoration: none;
     font-weight: 500;
     color: #2e3b40;
+    text-align: center;
 }
 
 .container a {
@@ -38,6 +39,7 @@ a h1 {
     margin-right: 20px;
     color: #2e3b40;
     font-weight: 500;
+    text-align: center;
 }
 
 /* Change header link color on hover with transition effect */
@@ -151,9 +153,9 @@ main {
     padding: 10px;
     
 }
-h1 a {
-    margin: 650px;
-}
+
+
+
 #image-text-prev,
 #image-text,
 #image-text-next,
@@ -481,76 +483,76 @@ footer {
 }
 
 
+/* Media Queries for Tablets (Portrait and Landscape) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        width: 90%; /* Adjust the width as needed */
+    }
 
-/* Media Queries for Smaller Screens */
+    .image-wrapper {
+        width: 100%; /* Adjust the width as needed */
+    }
 
-@media screen and (max-width: 1100px) {
-.floating-container {
-    display: none;
+    /* Add any other styles for tablets here */
 }
-}
-@media screen and (max-width: 800px) {
-    body {
-        padding-top: 50px;
-        margin-top: 50px;
+
+/* Media Queries for Phones */
+@media only screen and (max-width: 599px) {
+    .container {
+        width: 100%; /* Adjust the width as needed */
+        display: flex;
+  justify-content: space-between; 
     }
 
-    main {
-        padding-top: 60px;
-        margin-top: 25px;
+    .image-wrapper {
+        display: none;
     }
 
-    header {
-        z-index: 1;
-        padding: 15px;
-        text-align: center;
-    }
-
-    header a h1 {
-        margin-right: 0;
-    }
-
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul li {
+    .image-wrapper:nth-child(2) {
         display: block;
-        margin: 10px 0;
     }
 
-    #myImage {
-        height: auto;
-        max-width: 100%;
-    }
-
-    .description-container {
-        width: 100%;
-        top: 50%;
-    }
-
-    .products-container {
+    /* Display testimonials vertically */
+    .testimonial-container {
         flex-direction: column;
         align-items: center;
+        display: flex;
+  justify-content: space-between; 
     }
 
-    .product {
-        width: 100%;
-        margin-bottom: 30px;
+    .testimonial {
+        margin: 10px 0;
+        width: 80%; /* Adjust the width as needed */
     }
 
-    .signup {
-        width: 100%;
+    footer {
+        display: flex;
+  justify-content: space-between; 
     }
+    /* Stack footer elements vertically */
+    .contact2,
+    .address-media,
+    .newsletter {
+        margin: 20px auto;
+        text-align: center;
+        display: flex;
+  justify-content: space-between; 
+    }
+ /* Adjust text styles for better visibility */
+ h1, h2, p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
 
-    form {
-        padding: 15px;
-    }
+/* Ensure buttons and titles are fully visible */
+.cta-button,
+.button,
+#prev-button,
+#next-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
 
-    form input[type="text"],
-    form input[type="email"],
-    form textarea {
-        margin-bottom: 10px;
-    }
+/* Add any other styles for phones here */
 }
